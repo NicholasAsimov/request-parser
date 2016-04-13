@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+    title Request Header Parser Microservice - Nicholas Asimov
+    link(href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css", rel="stylesheet", integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX", crossorigin="anonymous")
+  body
+    .container
+      .test
+        h1(style="margin-bottom: 15px;") API Basejump: Request Header Parser Microservice
+        p Written by: #[a(href="https://www.freecodecamp.com/nicholasasimov") Nicholas Asimov]
+        blockquote
+          h3 User stories:
+          ol
+            li I can get the IP address, language and operating system for my browser.
+        h3 Example usage:
+        code http://request-parser.herokuapp.com/api/whoami/
+        h3 Example output:
+        code { "ipaddress":"xx.xx.xxx.xx","language":"en-US","software":"X11; Linux x86_64" }
