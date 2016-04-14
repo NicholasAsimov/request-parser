@@ -8,7 +8,7 @@ Written by: [Nicholas Asimov](https://www.freecodecamp.com/nicholasasimov)
 
 ### Example usage
 ```
-http://request-parser.herokuapp.com/api/whoami/
+https://request-parser.herokuapp.com/api/whoami/
 ```
 
-### [Live Website](http://request-parser.herokuapp.com/)
+### [Live Website](https://request-parser.herokuapp.com/)
