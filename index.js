@@ -19,7 +19,7 @@ app.get('/api/whoami', (request, response) => {
   response.end(JSON.stringify({
     ipaddress,
     language: request.headers['accept-language'].split(',')[0],
-    software,
+    software
   }));
 });
 
